@@ -1,0 +1,40 @@
+9
+
+dir
+6
+svn://67.207.131.215/endless_page/vendor/plugins/endless_page/tasks
+svn://67.207.131.215
+
+
+
+2008-05-03T06:04:28.545873Z
+4
+victor
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+07d19e91-aabc-4e71-952c-4304e2e53ca7
+
+endless_page_tasks.rake
+file
+
+
+
+
+2008-05-03T06:00:02.000000Z
+7769c50612d695a453d3278792243581
+2008-05-03T06:04:28.545873Z
+4
+victor
+

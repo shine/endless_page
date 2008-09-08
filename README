@@ -1,13 +1,11 @@
-EndlessPage
+Endless Page
 ===========
 
-Introduction goes here.
+Are you still use will_paginate? OK. Try to imagine next situation: you want to find blog post written few weeks ago. There are from 2 up to 5 new posts in the blog every day. There are 10 posts on each page. What page should you click in the paging nav bar to find needed post?
 
+Will_paginate answer: it depends...
+Endless page answer: just scroll down
 
-Example
-=======
-
-Example goes here.
-
+I have already wrote complete instructions for plugin user in my blog: http://bewhite.blogspot.com/2008/05/rails-endless-page-plugin.html
 
 Copyright (c) 2008 [name of plugin creator], released under the MIT license

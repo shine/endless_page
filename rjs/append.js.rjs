@@ -2,7 +2,10 @@ container = params[:container].to_sym
 partial = params[:partial]
 
 @additional_objects.each do |temp_object|
-  page.insert_html(:bottom, container, render(:partial => partial, :locals => {:article => temp_object}))
+  page.insert_html(:bottom, container, render(:partial => partial+'.html.erb', :locals => {:object => temp_object}))
 end
 
-page << "ep_config.last_value = #{@additional_objects.last[params[:sort_by]].to_s};"
+last_value = @additional_objects.last[params[:sort_by]]
+last_value = "'#{last_value.to_s(:db)}'" if last_value.is_a?(Time)
+
+page << "ep_config.last_value = #{last_value};"
